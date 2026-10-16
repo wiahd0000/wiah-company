@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navbar styling */
+.menus{
+  display: flex;
+justify-content: space-between;
+  background-color: rgb(255, 102, 0);
+  align-items: center;
+  /* gap: 1rem; */
+  padding: 0.5rem 4rem;
+  width: 100%;
+  
+}
+
+.menus h1{
+  color: white;
+  font-weight: bold;
+}
+
+
+.tab ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.tab a{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.tab select{
+  border: none;
+  background: none;
+  color: white;
+  font-size: 22px;
+}
+
+.menus input{
+  width: 130px;
+  border-radius: 4px;
+  border: 2px solid rgb(182, 164, 164);
+  padding-left: 8px;
+  height: 28px;
+}
+
+/* welcome page */
+.welcome{
+  padding: 8rem 6rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.welcome h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.welcome p{
+  font-size: 18px;
+}
+
+.welcome button{
+  width: 12rem;
+  height: 3.4rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: rgb(23, 180, 159);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.box1{
+  width: 300px;
+  height: 120px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 20px;
+  /* color: white; */
+  border-radius: 4px;
+}
+
+.box1 h3{
+font-size: 30px;
+font-weight: bold;
+}
